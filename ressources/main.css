@@ -55,7 +55,7 @@ p {
   padding-top: 0.5vh;
 }
 #main-box {
-  padding-top: 2vh;
+  user-select: none;
   margin-left: auto;
   margin-right: auto;
   background-color: #254740;
@@ -102,5 +102,5 @@ p {
   color: #000;
 }
 #send-btn:hover {
-  mouse
+  cursor: pointer;
 }
