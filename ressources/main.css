@@ -1,0 +1,106 @@
+body {
+    background-color: #024b30;
+    color: #cad3f5;
+    animation-duration: 0.5s;
+    font-family: 'Linux Biolinum', sans-serif;
+    animation-name: slidein;}
+  @keyframes slidein {
+    from {margin-top: 10%;}
+  to {margin-top: 0%;}
+}
+a {
+  all: unset;
+}
+h1 {
+  font-size: 5em;
+  margin-top: -1vh;
+}
+h2 {
+  font-size: 2.5em;
+}
+p {
+  font-size: 1.5em;
+}
+
+
+::-webkit-scrollbar {
+  width: 0.5vw;
+  }
+  ::-webkit-scrollbar-track {
+  background: #cad3f5;
+  border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+  background: #1e2030;
+  border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  background: #363a4f; 
+  }
+.textbox {
+  margin-left: 1vw;
+  padding-left: 0.5vw;
+  margin-top: 1.5vh;
+  }
+.textboxy {
+  margin-top: -2vh;
+  text-align: right;
+  padding-right: 0.5vw;
+  margin-right: 1vw;
+  margin-bottom: 8vh;
+}
+.textbox, .textboxy {
+  font-size: 1em;
+  color: #fff;
+  padding-top: 0.5vh;
+}
+#main-box {
+  padding-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #254740;
+  border: solid 5px #000;
+  border-radius: 4px;
+  width: 75%;
+  height: 80vh;
+}
+.content, .contenty {
+  width: fit-content;
+  max-width: 40vw;
+  padding: 0.8em;
+  margin-top: 0.5vh;
+  margin-left: 0.5vw;
+  color: #fff;
+  border-radius: 8px;
+}
+.content {
+  background-color: #077d49;
+}
+.contenty {
+  background-color: #bdcec8;
+  color: #1e2030;
+  float: right;
+}
+.pfp {
+  border-radius: 50%;
+  margin-right: 8.6em;
+  width: 2vw;
+  height: 2vw;
+}
+.pfp + p{
+  margin-top: -3.2vh;
+  margin-right: 0.3vw;
+  margin-left: 2.3vw;
+  font-size: 1.15em;
+}
+.line {
+  background-color: #000;
+  height: 3px;
+  width: 50%;
+}
+.c {
+  color: #000;
+}
+#send-btn:hover {
+  mouse
+}
