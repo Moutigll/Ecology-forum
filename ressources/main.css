@@ -1,9 +1,11 @@
 body {
-    background-color: #024b30;
-    color: #cad3f5;
-    animation-duration: 0.5s;
-    font-family: 'Linux Biolinum', sans-serif;
-    animation-name: slidein;}
+  overflow-y:hidden;
+  height:100%;
+  background-color: #024b30;
+  color: #cad3f5;
+  animation-duration: 0.5s;
+  font-family: 'Linux Biolinum', sans-serif;
+  animation-name: slidein;}
   @keyframes slidein {
     from {margin-top: 10%;}
   to {margin-top: 0%;}
@@ -52,6 +54,7 @@ p {
   padding-top: 0.5vh;
 }
 #main-box {
+  margin-top: -3vh;
   user-select: none;
   margin-left: auto;
   margin-right: auto;
